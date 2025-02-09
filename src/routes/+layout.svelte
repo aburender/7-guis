@@ -9,7 +9,14 @@
 <div>
 	<aside>
 		<nav>
-			<a href="/contador">Contador</a>
+			<ul>
+				<li>
+					<a href="/contador">Contador</a>
+				</li>
+				<li>
+					<a href="/convertidor-temperatura">convertidor de temperatura</a>
+				</li>
+			</ul>
 		</nav>
 	</aside>
 	<main>
@@ -29,7 +36,11 @@
 		flex: 1;
 	}
 	aside {
-		flex-basis: 14rem;
+		flex-basis: 20rem;
 		padding: var(--padding, 1rem);
+	}
+
+	a {
+		text-transform: capitalize;
 	}
 </style>
